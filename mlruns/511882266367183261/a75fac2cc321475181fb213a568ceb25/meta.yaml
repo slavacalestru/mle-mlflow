@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mle-user/mle_projects/mle-mlflow/mlruns/511882266367183261/a75fac2cc321475181fb213a568ceb25/artifacts
+end_time: 1770150504084
+entry_point_name: ''
+experiment_id: '511882266367183261'
+lifecycle_stage: active
+run_id: a75fac2cc321475181fb213a568ceb25
+run_name: data_check_2
+run_uuid: a75fac2cc321475181fb213a568ceb25
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1770150504062
+status: 3
+tags: []
+user_id: mle-user
