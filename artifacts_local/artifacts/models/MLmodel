@@ -1,0 +1,30 @@
+artifact_path: models
+flavors:
+  catboost:
+    catboost_version: 1.2.8
+    code: null
+    data: model.cb
+    model_type: CatBoostClassifier
+    save_format: cbm
+  python_function:
+    data: model.cb
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.catboost
+    python_version: 3.10.12
+metadata:
+  model_type: daily
+mlflow_version: 2.7.1
+model_uuid: d9f67bdcb46b453db0af0c7684aa1d29
+run_id: 4c237a6be9c444018bd3333e267f8906
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "feature_1"}, {"type": "double", "name": "feature_2"},
+    {"type": "double", "name": "feature_3"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-02-05 13:54:31.960801'
